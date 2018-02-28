@@ -176,7 +176,7 @@ exceptions:
     active: false
   TooGenericExceptionCaught:
     active: true
-    exceptions:
+    throwable:
      - ArrayIndexOutOfBoundsException
      - Error
      - Exception
@@ -187,7 +187,7 @@ exceptions:
      - Throwable
   TooGenericExceptionThrown:
     active: true
-    exceptions:
+    throwable:
      - Error
      - Exception
      - NullPointerException
